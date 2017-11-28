@@ -1,6 +1,6 @@
 {
   "name": "zipcode-location-service",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A service for finding a location (latitude and longitude) based on a  zip code",
   "main": "index.js",
   "scripts": {
