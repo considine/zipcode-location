@@ -22,9 +22,7 @@
     "url": "https://github.com/considine/zipcode-location/issues"
   },
   "homepage": "https://github.com/considine/zipcode-location#readme",
-  "dependencies": {
-    "fs": "0.0.1-security"
-  },
+  "dependencies": {},
   "devDependencies": {
     "mocha": "^4.0.1"
   }
