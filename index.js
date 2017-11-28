@@ -1,5 +1,5 @@
 var fs = require('fs');
-var zipcodes = JSON.parse(fs.readFileSync('zipcodes.json', 'utf8'));
+var zipcodes = require("./zipcodes");
 
 module.exports = {
   getLocation : function (zipcode) {
