@@ -9,7 +9,7 @@ describe("zipcodeLocationService", function() {
       for (var i=0; i<test_zips.length; i++) {
         var loc =zipcodeLocationService.getLocation(test_zips[i]);
         if (! loc) throw new Error( "zipcode not found ");
-        if (! loc.latitude || ! loc.longitude ) throw new Error("zipcode not valid");
+        if (! loc.lat || ! loc.lng ) throw new Error("zipcode not valid");
       }
     });
   });

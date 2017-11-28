@@ -4,6 +4,6 @@ var zipcodes = JSON.parse(fs.readFileSync('zipcodes.json', 'utf8'));
 module.exports = {
   getLocation : function (zipcode) {
     var loc = zipcodes[zipcode];
-    return loc;
+    return {"lat" : loc["latitude"], "lng" : loc["longitude"]};
   }
 }
